@@ -1,0 +1,17 @@
+{
+  "name": "nyaru",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kzw200015 <kzw200015@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "async-validator": "^4.0.7",
+    "axios": "^0.26.1",
+    "element-ui": "^2.15.6",
+    "vuepress": "^1.9.7"
+  }
+}
