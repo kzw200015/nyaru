@@ -14,7 +14,7 @@
 import VideoCard from "./VideoCard.vue";
 
 export default {
-  name: "Splice",
+  name: "Slice",
   components: {
     VideoCard,
   },
@@ -29,7 +29,6 @@ export default {
   display: grid;
   grid-template-columns: repeat(auto-fill, 230px);
   justify-content: center;
-
   grid-gap: 20px;
 }
 </style>

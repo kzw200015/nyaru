@@ -1,6 +1,6 @@
 # 来看看可爱的猫雷吧
 <br>
-<Splice :videos="videos"></Splice>
+<Slice :videos="videos"></Slice>
 
 <script>
 export default {
