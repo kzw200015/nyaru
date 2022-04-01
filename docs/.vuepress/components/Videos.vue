@@ -6,6 +6,7 @@
       :cover="video.cover"
       :title="video.title"
       :bv="video.bv"
+      :link="video.link"
     ></VideoCard>
   </div>
 </template>

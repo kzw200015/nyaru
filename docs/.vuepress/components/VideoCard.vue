@@ -16,10 +16,19 @@ export default {
     cover: String,
     title: String,
     bv: String,
+    link: String,
   },
   methods: {
     handleClick() {
-      window.open("https://www.bilibili.com/video/" + this.bv, "_blank");
+      let url = "";
+
+      if (this.link) {
+        url = this.link;
+      } else {
+        url = "https://www.bilibili.com/video/" + this.bv;
+      }
+
+      window.open(url, "_blank");
     },
   },
 };
