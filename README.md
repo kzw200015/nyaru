@@ -1,7 +1,7 @@
 ## 一个因爱而存在的网站
 猫雷最强！
 
-本站点通过Github Actions自动编译部署到Github Pages，域名为<https://nyaru.top>
+本站点通过Github Actions自动编译部署到Github Pages，域名为<https://nyaru.cc>
 
 ## 如何贡献
 #### 如果您可以贡献代码
