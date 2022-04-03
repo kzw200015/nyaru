@@ -8,6 +8,11 @@ export default {
         return {
             videos:[
             {
+                cover: "/cover/【猫雷にゃる × 白雪アリア】アイデンティティ Identity.jpg",
+                title: "【猫雷にゃる × 白雪アリア】アイデンティティ Identity",
+                bv: "BV1w3411H7VH"
+            },
+            {
                 cover: "/cover/【全熟】猫雷NyaRu 1st 3DLIVE.jpg",
                 title: "【全熟】猫雷NyaRu 1st 3DLIVE",
                 bv: "BV1eL411P73q"
