@@ -12,9 +12,11 @@
 <br>
 <Videos :videos="covers"></Videos>
 
-<script>
-export default {
-  data () {
+<script lang="ts">
+import { defineComponent } from "vue"
+
+export default defineComponent({
+  setup() {
     return {
       originals: [
         {
@@ -31,14 +33,14 @@ export default {
           cover: "/cover/【原创歌曲】にゃん☆ぼると【猫雷にゃる】.jpg",
           title: "【原创歌曲】にゃん☆ぼると【猫雷にゃる】",
           bv: "BV1HK4y1J7U3"
-        },
+        }
       ],
       lives: [
         {
           cover: "/cover/【全熟】猫雷NyaRu 1st 3DLIVE.jpg",
           title: "【全熟】猫雷NyaRu 1st 3DLIVE",
           bv: "BV1eL411P73q"
-        },
+        }
       ],
       covers: [
         {
@@ -119,6 +121,5 @@ export default {
         }]
     }
   }
-};
-
+})
 </script>

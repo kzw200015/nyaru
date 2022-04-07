@@ -2,9 +2,11 @@
 <br>
 <Videos :videos="videos"></Videos>
 
-<script>
-export default {
-  data () {
+<script lang="ts">
+import { defineComponent } from "vue"
+
+export default defineComponent({
+  setup() {
     return {
       videos: [
         {
@@ -24,5 +26,5 @@ export default {
         }]
     }
   }
-}
+})
 </script>
