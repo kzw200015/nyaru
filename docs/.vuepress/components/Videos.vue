@@ -1,28 +1,22 @@
 <template>
   <div class="container">
-    <VideoCard
-      v-for="(video, index) in videos"
-      :key="index"
-      :cover="video.cover"
-      :title="video.title"
-      :bv="video.bv"
-      :link="video.link"
-    ></VideoCard>
+    <VideoCard v-for="(video, index) in videos" :key="index" :video="video"></VideoCard>
   </div>
 </template>
 
-<script>
-import VideoCard from "./VideoCard.vue";
+<script lang="ts">
+import { defineComponent, PropType } from "vue"
+import VideoCard, { VideoInfo } from "./VideoCard.vue"
 
-export default {
-  name: "Slice",
-  components: {
-    VideoCard,
-  },
+export default defineComponent({
   props: {
-    videos: Array,
+    videos: Object as PropType<VideoInfo[]>
   },
-};
+  components: { VideoCard },
+  setup(props) {
+    return props.videos
+  }
+})
 </script>
 
 <style scoped>

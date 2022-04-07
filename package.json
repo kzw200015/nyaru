@@ -9,9 +9,9 @@
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "async-validator": "^4.0.7",
-    "axios": "^0.26.1",
-    "element-ui": "^2.15.6",
-    "vuepress": "^1.9.7"
-  }
+    "@vuepress/plugin-register-components": "^2.0.0-beta.38",
+    "element-plus": "^2.1.8",
+    "vuepress": "^v2.0.0-beta.38"
+  },
+  "dependencies": {}
 }
