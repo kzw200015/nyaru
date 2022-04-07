@@ -1,31 +1,55 @@
 # 太好听了吧，简直就是天籁
+
+### 原创曲
 <br>
-<Videos :videos="videos"></Videos>
+<Videos :videos="originals"></Videos>
+
+### 3D Live
+<br>
+<Videos :videos="lives"></Videos>
+
+### 翻唱
+<br>
+<Videos :videos="covers"></Videos>
 
 <script>
 export default {
   data () {
     return {
-      videos: [
+      originals: [
+        {
+          cover: "/cover/【原创曲】ポイきゆん! ——猫雷にゃる.jpg",
+          title: "【原创曲】ポイきゆん! ——猫雷にゃる",
+          bv: "BV1sR4y1g7Us"
+        },
+        {
+          cover: "/cover/【原创歌曲】ドキドキなんです！by猫雷.jpg",
+          title: "【原创歌曲】ドキドキなんです！by猫雷",
+          bv: "BV14i4y1Z74z"
+        },
+        {
+          cover: "/cover/【原创歌曲】にゃん☆ぼると【猫雷にゃる】.jpg",
+          title: "【原创歌曲】にゃん☆ぼると【猫雷にゃる】",
+          bv: "BV1HK4y1J7U3"
+        },
+      ],
+      lives: [
+        {
+          cover: "/cover/【全熟】猫雷NyaRu 1st 3DLIVE.jpg",
+          title: "【全熟】猫雷NyaRu 1st 3DLIVE",
+          bv: "BV1eL411P73q"
+        },
+      ],
+      covers: [
         {
           cover: "/cover/【猫雷にゃる × 白雪アリア】アイデンティティ Identity.jpg",
           title: "【猫雷にゃる × 白雪アリア】アイデンティティ Identity",
           bv: "BV1w3411H7VH"
         },
         {
-          cover: "/cover/【全熟】猫雷NyaRu 1st 3DLIVE.jpg",
-          title: "【全熟】猫雷NyaRu 1st 3DLIVE",
-          bv: "BV1eL411P73q"
-        },
-        {
           cover: "/cover/ヒロインたるもの！／HoneyWorks covered by 猫雷にゃる.jpg",
           title: "ヒロインたるもの！／HoneyWorks covered by 猫雷にゃる",
           bv: "BV1zX4y1P7Xe"
-        },
-        {
-          cover: "/cover/【原创歌曲】にゃん☆ぼると【猫雷にゃる】.jpg",
-          title: "【原创歌曲】にゃん☆ぼると【猫雷にゃる】",
-          bv: "BV1HK4y1J7U3"
         },
         {
           cover: "/cover/【猫雷】日本vtuber翻唱 热爱105°C的你.jpg",
@@ -37,11 +61,7 @@ export default {
           title: "【猫雷】梦想奔驰（ユメヲカケル!）【赛马娘】4K画质",
           bv: "BV1344y117UT"
         },
-        {
-          cover: "/cover/【原创曲】ポイきゆん! ——猫雷にゃる.jpg",
-          title: "【原创曲】ポイきゆん! ——猫雷にゃる",
-          bv: "BV1sR4y1g7Us"
-        },
+
         {
           cover: "/cover/【猫雷】おじゃま虫Ⅱ.jpg",
           title: "【猫雷】おじゃま虫Ⅱ",

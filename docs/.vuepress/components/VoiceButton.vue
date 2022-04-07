@@ -1,11 +1,11 @@
 <template>
-  <div class="container">
+  <el-space wrap>
     <div v-for="(voice, index) in voices" :key="index">
-      <el-button @click="handleClick(voice.src)" type="primary">
+      <el-button size="large" @click="handleClick(voice.src)" type="primary">
         {{ voice.name }}
       </el-button>
     </div>
-  </div>
+  </el-space>
 </template>
 
 <script lang="ts">
@@ -32,12 +32,3 @@ export default defineComponent({
   }
 })
 </script>
-
-<style scoped>
-.container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 100px);
-  justify-content: center;
-  grid-gap: 20px;
-}
-</style>

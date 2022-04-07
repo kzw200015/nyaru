@@ -1,5 +1,5 @@
 # 点上瘾了
-<br>
+
 <VoiceButton :voices="voices"></VoiceButton>
 
 <script lang="ts">
