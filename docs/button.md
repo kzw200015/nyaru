@@ -10,16 +10,20 @@ export default defineComponent({
     return {
       voices: [
         {
-          name: "PonPon!",
+          name: "PonPon",
           src: "/voice/ponpon.mp3"
         },
         {
-          name: "花Q!",
+          name: "花Q",
           src: "/voice/花Q.mp3"
         },
         {
           name: "谢谢大傻喵",
           src: "/voice/谢谢大傻喵.mp3"
+        },
+        {
+          name: "Baka",
+          src: "/voice/谢baka.mp3"
         }
       ]
     }
