@@ -1,3 +1,6 @@
+---
+sidebar: auto
+---
 ![](/logo.webp)
 
 ## 自我介绍
@@ -19,11 +22,11 @@
 - <img class="link-icon" src="/icon/twitter.svg"/> [Twitter](https://twitter.com/NecoraNyaru)
 
 ## 猫雷的使魔
-#### キキ（kiki）
+### キキ（kiki）
 <br>
 <img class="pet-img" src="/img/kiki.jpg" alt="kiki">
 
-#### ココ（coco）
+### ココ（coco）
 
 <style scoped>
 .link-icon {

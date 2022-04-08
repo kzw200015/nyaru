@@ -1,14 +1,15 @@
-# 太好听了吧，简直就是天籁
-
-### 原创曲
+---
+sidebar: auto
+---
+## 原创曲
 <br>
 <Videos :videos="originals"></Videos>
 
-### 3D Live
+## 3D Live
 <br>
 <Videos :videos="lives"></Videos>
 
-### 翻唱
+## 翻唱
 <br>
 <Videos :videos="covers"></Videos>
 
