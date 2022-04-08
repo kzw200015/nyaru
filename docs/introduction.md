@@ -18,8 +18,18 @@
 - <img class="link-icon" src="/icon/youtube.svg"/> [Youtube](https://www.youtube.com/channel/UCbXXdwEVbVbXhosYKn0am6A)
 - <img class="link-icon" src="/icon/twitter.svg"/> [Twitter](https://twitter.com/NecoraNyaru)
 
+## 猫雷的使魔
+#### キキ（kiki）
+<br>
+<img class="pet-img" src="/img/kiki.jpg" alt="kiki">
+
+#### ココ（coco）
+
 <style scoped>
 .link-icon {
   width: 15px;
+}
+.pet-img{
+  width: 200px;
 }
 </style>
