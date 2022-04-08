@@ -2,6 +2,8 @@
 
 <VoiceButton :voices="voices"></VoiceButton>
 
+**如果有更多，或者有更好质量，杂音更少的音源，请务必联系我，从一堆录播里剪辑出来真的很费精力，急需帮忙**
+
 <script lang="ts">
 import { defineComponent } from "vue"
 
