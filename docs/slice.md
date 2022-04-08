@@ -10,6 +10,11 @@ export default defineComponent({
     return {
       videos: [
         {
+          cover: "/cover/一分钟带你了解V吧小公主猫雷.jpg",
+          title: "一分钟带你了解V吧小公主猫雷",
+          bv: "BV1GR4y137n4"
+        },
+        {
           cover: "/cover/中文水平被家乡路人爆鲨的猫雷.jpg",
           title: "中文水平被家乡路人爆鲨的猫雷",
           bv: "BV1hb4y117F8"
