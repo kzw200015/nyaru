@@ -1,6 +1,6 @@
-import { defineUserConfig } from "vuepress"
 import { path } from "@vuepress/utils"
 import type { DefaultThemeOptions } from "vuepress"
+import { defineUserConfig } from "vuepress"
 
 export default defineUserConfig<DefaultThemeOptions>({
     title: "猫雷NyaRu",
@@ -9,9 +9,9 @@ export default defineUserConfig<DefaultThemeOptions>({
         [
             '@vuepress/register-components',
             {
-                componentsDir: path.resolve(__dirname, './components'),
-            },
-        ],
+                componentsDir: path.resolve(__dirname, './components')
+            }
+        ]
     ],
     themeConfig: {
         repo: "kzw200015/nyaru",
@@ -19,6 +19,9 @@ export default defineUserConfig<DefaultThemeOptions>({
         contributors: false,
         lastUpdated: false,
         sidebar: false,
+        themePlugins: {
+            mediumZoom: false
+        },
         navbar: [
             { text: "猫雷简介", link: "/introduction" },
             { text: "猫雷切片", link: "/slice" },
