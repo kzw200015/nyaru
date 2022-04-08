@@ -1,6 +1,6 @@
 一个因为爱而存在的网站，等待着因为爱来一起建设的人
 
-如想要提交内容，点击右上角 Github 链接
+如想要提交内容，点击导航栏 Github 链接
 
 如有任何问题，可联系
 - Email: [kzw200015@gmail.com](mailto:kzw200015@gmail.com)
