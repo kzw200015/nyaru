@@ -14,8 +14,12 @@ export default defineComponent({
           src: "/voice/ponpon.mp3"
         },
         {
-          name: "花Q",
-          src: "/voice/花Q.mp3"
+          name: "花Q-1",
+          src: "/voice/花Q-1.mp3"
+        },
+        {
+          name: "花Q-2",
+          src: "/voice/花Q-2.mp3"
         },
         {
           name: "谢谢大傻喵",
