@@ -23,7 +23,7 @@ export default defineComponent({
         },
         {
           name: "Baka",
-          src: "/voice/谢baka.mp3"
+          src: "/voice/baka.mp3"
         }
       ]
     }
