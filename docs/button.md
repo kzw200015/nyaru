@@ -16,6 +16,10 @@ export default defineComponent({
         {
           name: "花Q!",
           src: "/voice/花Q.mp3"
+        },
+        {
+          name: "谢谢大傻喵",
+          src: "/voice/谢谢大傻喵.mp3"
         }
       ]
     }
