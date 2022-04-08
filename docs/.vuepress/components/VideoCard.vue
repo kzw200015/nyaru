@@ -1,6 +1,6 @@
 <template>
   <div class="card" @click="handleClick">
-    <el-card class="box-card">
+    <el-card>
       <img class="cover" :src="video.cover" :alt="video.title"/>
       <div class="title">{{ video.title }}</div>
     </el-card>
