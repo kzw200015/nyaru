@@ -30,6 +30,22 @@ export default defineComponent({
         {
           name: "Baka",
           src: "/voice/baka.mp3"
+        },
+        {
+          name: "悲鳴",
+          src: "/voice/悲鳴.mp3"
+        },
+        {
+          name: "防空警报",
+          src: "/voice/防空警报.mp3"
+        },
+        {
+          name: "mooo",
+          src: "/voice/mooo.mp3"
+        },
+        {
+          name: "にまますら",
+          src: "/voice/にまますら.mp3"
         }
       ]
     }

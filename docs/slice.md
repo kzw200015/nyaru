@@ -10,6 +10,11 @@ export default defineComponent({
     return {
       videos: [
         {
+          cover: "/cover/【猫雷】【CS：GO】你在看我对吧！.jpg",
+          title: "【猫雷】【CS：GO】你在看我对吧！",
+          bv: "BV14L4y1T73B"
+        },
+        {
           cover: "/cover/一分钟带你了解V吧小公主猫雷.jpg",
           title: "一分钟带你了解V吧小公主猫雷",
           bv: "BV1GR4y137n4"
