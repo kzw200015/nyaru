@@ -1,4 +1,4 @@
-## 一个因爱而存在的网站
+## 一个因爱而存在的网站(停止更新)
 猫雷最强！
 
 本站点通过Github Actions自动编译部署到Github Pages，域名为 <https://nyaru.cc>
